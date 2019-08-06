@@ -1,0 +1,15 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys 
+
+driver = webdriver.Chrome()
+
+#1. On your computer, open the URL 
+driver.get("https://www.rakuten.tv/ie")
+
+# Title of the page
+print(driver.title)
+
+
+
+
+
