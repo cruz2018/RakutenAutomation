@@ -9,6 +9,9 @@ driver.get("https://www.rakuten.tv/ie")
 # Title of the page
 print(driver.title)
 
+# Returns the URL of the page
+print(driver.current_url)
+
 
 
 
